@@ -183,9 +183,5 @@ while True:
 df = pd.DataFrame(d_list)
 df.to_csv('test.csv',index=None,encoding='utf-8-sig')
 
-#source = r"C:\Users\taiha\Desktop\Final-Answer\1-2.csv"
-#destination = r"C:\Users\taiha\Desktop\Final-Answer\Exercise_for_Pool\python\ex1_web_scraping\1-2.csv"
-#shutil.move(source,destination)
-
 driver.quit()
 send_mail(mail)
